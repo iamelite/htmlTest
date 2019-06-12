@@ -1,11 +1,12 @@
 #mainBoarder{
+    width: 460px;
     border: #dcdcdc;
     border-style: solid;
     border-radius: 8px;
     border-width: 1px;
     margin: 8%;
-    margin-left: 36%;
-    margin-right: 36%;
+    margin-left: 33vw;
+    margin-right: 33%;
     padding-top: 3%;
     background: #ffffff;
 }
@@ -13,18 +14,98 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 22%;
+    width: 30%;
 }
 #SignIn{
     color: #3b3b3b;
     font-size: 22px;
     text-align: center;
-    font-family: Arial;
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    margin-top: 2px;
 }
 #ContinuetoGmail{
     margin-top: -4px;
-    color: #3b3b3b;
-    font-size: 19px;
+    color: #616161;
+    font-size: 17px;
     text-align: center;
-    font-family: Arial;
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    margin-bottom: 30px;
+}
+::placeholder{
+    color: #b1b1b1;
+    font-weight: bold;
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    font-size: 15px;
+
+}
+#usrnm{
+
+    margin-left: 40px;
+    margin-bottom: 8px;
+    padding: 10px;
+    padding-top: 15px;
+    padding-right: 200px;
+    padding-bottom: 15px;
+
+    border-color: #e6e6e6;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+}
+#ForgotEmail{
+    margin-left: 40px;
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #1a73e8;
+}
+#notPC{
+    color: #616161;
+    margin-top: 50px;
+    margin-bottom: -10px;
+    margin-left: 40px;
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    font-size: 15px;
+
+}
+#LearnMore{
+
+    margin-left: 40px;
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: #1a73e8;
+}
+#createAccount{
+    margin-left: 40px;
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: #1a73e8;
+}
+#Next{
+    font-weight: bold;
+    color: white;
+    background-color: #1a73e8;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    padding-right: 28px;
+    padding-left: 28px;
+    margin-left: 200px;
+}
+#footer{
+    margin-top: -7%;
+}
+.lang{
+    margin-left: 35%;
+    font-size: 12px;
+    color: #616161;
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+}
+#lang0{
+    padding-right: 11%;
+}
+#help, #privacy, #terms{
+    margin-left: 15px;
 }
